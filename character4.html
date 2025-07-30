@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Knight - Epic Legends</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="characters.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-gamepad"></i>
+                <span>Epic Legends</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="characters.html" class="nav-link">Characters</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Character Profile Header -->
+    <section class="character-profile-header">
+        <div class="profile-bg">
+            <img src="https://pixabay.com/get/gb67437a22627531f3a3dab8be6e048593d4950b66881d5ffa2af83eb65f61dbe6b2a8e4f37da1f03e59b02b433ffc910224e5122549ddbe67e5ee5a5b66e4b9e_1280.jpg" alt="Knight Background">
+        </div>
+        <div class="profile-overlay"></div>
+        <div class="profile-content">
+            <div class="back-button">
+                <a href="characters.html">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Characters
+                </a>
+            </div>
+            <div class="character-hero">
+                <div class="character-portrait">
+                    <img src="https://pixabay.com/get/g290893d68ca395663b20a050b3a1d5d4f183009a13a94f149c31f5247ec34be68e6d1d00cb7c74534218eebb7551b4968316606ca58659ec80b51f49d51e5708_1280.jpg" alt="Battle Knight">
+                </div>
+                <div class="character-details">
+                    <h1 class="character-title">Battle Knight</h1>
+                    <p class="character-subtitle">Noble Defender</p>
+                    <div class="character-tags">
+                        <span class="tag">Warrior</span>
+                        <span class="tag">Noble</span>
+                        <span class="tag">Defender</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character Information -->
+    <section class="character-info-section">
+        <div class="container">
+            <div class="info-grid">
+                <!-- Stats Panel -->
+                <div class="stats-panel">
+                    <h3>Combat Statistics</h3>
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-name">Strength</span>
+                            <span class="stat-value">87/100</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" style="width: 87%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-name">Defense</span>
+                            <span class="stat-value">95/100</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-name">Honor</span>
+                            <span class="stat-value">100/100</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-name">Leadership</span>
+                            <span class="stat-value">89/100</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" style="width: 89%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biography -->
+                <div class="biography-panel">
+                    <h3>Noble Legacy</h3>
+                    <div class="bio-content">
+                        <p>The Battle Knight comes from a long line of noble warriors who have served the realm for generations. Sworn to uphold justice and protect the innocent, this valiant defender has never wavered in their commitment to righteousness, even in the darkest of times.</p>
+                        
+                        <p>Trained from childhood in the arts of combat and chivalry, the Battle Knight has mastered both sword and shield, becoming an impenetrable fortress on the battlefield. Their tactical brilliance and unwavering courage have led countless victories against overwhelming odds.</p>
+                        
+                        <p>Beyond physical prowess, the Battle Knight embodies the highest ideals of honor, courage, and selflessness. They inspire hope in allies and strike fear into the hearts of evil-doers. Many legends speak of their miraculous interventions in desperate battles, where their presence alone turned the tide of war.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Abilities Section -->
+            <div class="abilities-section">
+                <h3>Knightly Arts</h3>
+                <div class="abilities-grid">
+                    <div class="ability-card">
+                        <div class="ability-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Shield Bash</h4>
+                        <p>Delivers a powerful strike with the shield that can stun enemies and reflect incoming projectiles back at attackers.</p>
+                        <div class="ability-stats">
+                            <span class="stun">Stun: 3s</span>
+                            <span class="cooldown">Cooldown: 10s</span>
+                        </div>
+                    </div>
+                    <div class="ability-card">
+                        <div class="ability-icon">
+                            <i class="fas fa-cross"></i>
+                        </div>
+                        <h4>Holy Strike</h4>
+                        <p>Channels divine energy through the weapon to deal massive damage to evil enemies and heal nearby allies.</p>
+                        <div class="ability-stats">
+                            <span class="damage">Damage: Very High</span>
+                            <span class="cooldown">Cooldown: 20s</span>
+                        </div>
+                    </div>
+                    <div class="ability-card">
+                        <div class="ability-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h4>Divine Protection</h4>
+                        <p>Creates a protective aura that reduces damage taken by all allies and provides resistance to negative effects.</p>
+                        <div class="ability-stats">
+                            <span class="duration">Duration: 30s</span>
+                            <span class="cooldown">Cooldown: 60s</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Equipment Section -->
+            <div class="equipment-section">
+                <h3>Sacred Armaments</h3>
+                <div class="equipment-grid">
+                    <div class="equipment-item">
+                        <i class="fas fa-sword"></i>
+                        <div class="equipment-info">
+                            <h4>Excalibur Replica</h4>
+                            <p>A blessed blade forged with divine materials, capable of cutting through the strongest evil magic.</p>
+                        </div>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="equipment-info">
+                            <h4>Aegis Shield</h4>
+                            <p>An impenetrable shield blessed by ancient gods, providing unmatched protection in battle.</p>
+                        </div>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-user-shield"></i>
+                        <div class="equipment-info">
+                            <h4>Paladin Armor</h4>
+                            <p>Sacred plate armor inscribed with holy runes that enhance strength and provide divine protection.</p>
+                        </div>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-horse"></i>
+                        <div class="equipment-info">
+                            <h4>Noble Steed</h4>
+                            <p>A faithful war horse trained for battle, providing mobility and a powerful charge attack.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation to other characters -->
+    <section class="character-navigation">
+        <div class="container">
+            <h3>Explore Other Characters</h3>
+            <div class="nav-characters">
+                <a href="character1.html" class="nav-character">
+                    <img src="https://pixabay.com/get/g3a34ced260e0802eb9e0ce5eaadf435b9d17a413d61ca14c20a4b7792c636b0f9df4f3d8238226a569c7b4a4fef1cb9698da15cfe9d65c8a008267ed546419b6_1280.jpg" alt="Cyber Warrior">
+                    <span>Cyber Warrior</span>
+                </a>
+                <a href="character2.html" class="nav-character">
+                    <img src="https://pixabay.com/get/g5c51cda82944445b5d001b9d7e05208ec07574709a2e955c6459717ec8ebc11114ad49a63d3499d9fd2ee753b853dc17bfde9493878d7081d6453363bf04aa85_1280.jpg" alt="Mystic Guardian">
+                    <span>Mystic Guardian</span>
+                </a>
+                <a href="character3.html" class="nav-character">
+                    <img src="https://pixabay.com/get/g6e03335052415f68b78b491ded317b2c1be795eb53678e1558e6b67cdf2e2a7d2e9d642eb33560379683dd8a485769205e0deca2c069356aa4219d0d36e59079_1280.jpg" alt="Shadow Assassin">
+                    <span>Shadow Assassin</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Epic Legends</span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="characters.html">Characters</a>
+                    <a href="index.html#about">About</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Epic Legends. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Animate stats on load
+        window.addEventListener('load', () => {
+            const statFills = document.querySelectorAll('.stat-fill');
+            statFills.forEach((fill, index) => {
+                setTimeout(() => {
+                    fill.style.animation = 'fillStat 1.5s ease-out forwards';
+                }, index * 200);
+            });
+        });
+
+        // Parallax effect for profile background
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const profileBg = document.querySelector('.profile-bg img');
+            if (profileBg) {
+                profileBg.style.transform = `translateY(${scrolled * 0.3}px)`;
+            }
+        });
+    </script>
+</body>
+</html>
